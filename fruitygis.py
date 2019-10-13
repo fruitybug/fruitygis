@@ -148,7 +148,7 @@ def createxml():
 #client
 
         if not bool(clients.values()):
-            clients_ven = 'Clients not detect'
+            clients_ven = 'Clients not detected'
         else:
             conn_c = sqlite3.connect(kismetdb)
             cursor_c = conn.cursor()
